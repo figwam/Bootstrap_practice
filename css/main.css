@@ -1,0 +1,211 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #6c7279;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 700;
+}
+h1{
+    text-transform: uppercase;
+    font-size: 48px;
+}
+.no-pad{
+    padding-left: 0;
+    padding-right: 0;
+}
+/*                  First Screen                    */
+header{
+    background: url("../img/876628-chinatown-cities-cityscapes-new-york-city-streets.png") no-repeat center top;
+    background-size: cover;
+    color: white;
+}
+.logo{
+    font-size: 30px;
+}
+.logo span:first-child{
+    color: #626fe4;
+    font-weight: 800;
+    margin-right: -8px;
+}
+.nav-link{
+    display: block;
+    width: 100%;
+}
+.navigation__item:hover{
+    background-color: rgba(0,0,0,0.1);
+}
+.header-wrap{
+    padding-top: 215px;
+    padding-bottom: 200px;
+}
+.header-wrap h1{
+    margin-bottom: 45px;
+}
+.main-header__note{
+    font-size: 22px;
+    max-width: 570px;
+    margin-bottom: 25px;
+}
+.button{
+    color:#e84545;
+    border-color: #e84545;
+    font-weight: 700;
+    width: 200px;
+    text-transform: uppercase;
+}
+.button:hover{
+    background-color: #e84545;
+}
+
+/*                  Icons Section                   */
+.icons{
+    margin-top: 120px;
+}
+.icon-item{
+    margin-bottom: 72px;
+    max-width:380px;
+}
+.icon-item__header{
+    margin: 32px 0 22px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: black;
+}
+
+/*                  Images Section                  */
+.images{
+    margin-bottom: 100px;
+}
+.images__picture{
+    margin-bottom: 30px;
+    height: 100%;
+}
+
+/*                  Cards Section                   */
+
+.cards-wrap{
+    background-color: #f1f2fd;
+    padding-bottom: 88px;
+    padding-top: 118px;
+}
+.card{
+    background: transparent;
+    margin-bottom: 30px;
+    max-width:285px;
+}
+.cards img{
+    padding: 0;
+}
+.card-header{
+    border: 0;
+    background-color: transparent;
+    padding: 0;
+    font-weight: 700;
+    font-size: 22px;
+    margin-top: 27px;
+    color: #2d3033;
+}
+.card__speciality{
+    text-transform: uppercase;
+    color: #e84545;
+    font-size: 13px;
+    margin-top: 8px;
+}
+.card-body{
+    padding: 0;
+    margin-top: 27px;
+}
+.card-footer{
+    border: 0;
+    background-color: transparent;
+    padding: 0;
+    margin-top: 37px;
+}
+.card-footer i{
+    font-size: 54px;
+    margin-right: 5px;
+}
+
+/*                  Fluid Section                   */
+
+.fluid-wrap{
+    color: white;
+}
+.wrap-row{
+    min-height: 500px;
+    box-sizing: border-box;
+}
+.fluid-image{
+    background: url("../img/Layer 19.png") no-repeat center top;
+    background-size: cover;
+    height: 500px;
+}
+.fluid-content{
+    padding: 110px 55px 60px;
+    background-color: #53354a;
+}
+.fluid-content i{
+    display: block;
+    max-width: 500px;
+    font-size: 36px;
+}
+.fluid-content span{
+    display: block;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+/*                  Start Section               */
+
+.start{
+    margin: 100px 0;
+}
+.start__header{
+    color: black;
+}
+.start__button{
+    margin-top: 40px;
+}
+
+/*                  Footer                      */
+
+footer{
+    background-color: #3a3e64;
+    padding: 80px 0 40px;
+}
+.note{
+    padding-bottom: 40px;
+}
+.note__header{
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 10px;
+}
+
+/*                  Media Squares                   */
+
+@media screen and (max-width: 991px){
+    .wrap-row{
+        min-height: 500px;
+    }
+}
+@media screen and (max-width: 767px){
+    .navigation{
+        padding: 0;
+        text-align: center;
+        position: absolute;
+        top: 60px;
+    }
+    .navigation__item{
+        border-bottom: 1px solid rgba(255,255,255,0.1);
+    }
+}
+@media screen and (max-width: 575px){
+    .fluid-content i{
+        font-size: 28px;
+    }
+}
